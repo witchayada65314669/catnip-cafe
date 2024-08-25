@@ -1,0 +1,76 @@
+body {
+    background-color: #d0ccaa; /* สีเทาอ่อน */
+    margin: 0; /* ยกเลิก margin เพื่อให้ครอบคลุมเต็มหน้า */
+    padding: 0;
+}
+
+.image-container {
+    width: 90%; /* ตั้งค่าความกว้างของบล็อกเป็น 90% ของหน้าจอ เพื่อขยายขนาดรูป */
+    max-width: 1000px; /* กำหนดความกว้างสูงสุดใหม่ */
+    height: 50%;
+    max-height: 364px;
+    margin:  auto; /* เพิ่ม margin-top เป็น 100px เพื่อให้รูปภาพเลื่อนลงมา, margin 0 auto เพื่อจัดกึ่งกลางบล็อก */
+    overflow: hidden; /* ซ่อนส่วนที่เกินออกมา */
+    border-radius: 10px; /* มุมมน */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เงา */
+    text-align: center; /* จัดกึ่งกลางข้อความ */
+}
+
+.image-container img {
+    width: 100%; /* รูปภาพจะเต็มบล็อก */
+    height: auto; /* รักษาอัตราส่วนของรูปภาพ */
+    display: block;
+    border-radius: 10px; /* มุมมนของรูปภาพ */
+}
+
+.caption {
+    width: 90%; /* กำหนดความกว้างของข้อความให้เท่ากับความกว้างของรูปภาพ */
+    max-width: 1000px; /* กำหนดความกว้างสูงสุดของข้อความ */
+    margin: -70px auto 10px; /* ลดระยะห่างด้านบนให้ติดกับรูปภาพ และเพิ่มระยะห่างด้านล่าง */
+    text-align: center; /* จัดกึ่งกลางข้อความ */
+    font-size: 22px; /* ขนาดของข้อความ */
+    color: #ffffff; /* สีของข้อความ */
+    font-weight: 600; /* น้ำหนักตัวอักษร */
+}
+
+.message {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin: 0 auto 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.thaifont {
+    font-family: 'Itim', sans-serif;
+    font-size: 22px;
+}
+
+.thaifont2 {
+    font-family: 'Itim', sans-serif;
+    font-size: 20px;
+    margin-left: 320px;
+}
+.thaifont3 {
+    font-family: 'Itim', sans-serif;
+    font-size: 18px;
+    margin-left: 330px;
+}
+
+.thaifont4 {
+    font-family: 'Itim', sans-serif;
+    font-size: 22px;
+}
+
+
+#how-to-play-content {
+    display: none; /* ซ่อนเนื้อหาเริ่มต้น */
+    margin-top: 20px; /* เพิ่มระยะห่างด้านบน */
+}
+.btn-orange {
+    background-color: orange;
+    color: white; /* เปลี่ยนสีข้อความให้เป็นสีขาว เพื่อให้เห็นได้ชัด */
+}
+
+

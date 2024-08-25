@@ -1,0 +1,51 @@
+.drinkk {
+    text-align: left;
+    margin-left: 50px;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td {
+    text-align: left;
+    padding: 10px;
+}
+th {
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+}
+td {
+    border-bottom: 1px solid #ddd;
+}
+.icon {
+    font-size: 18px;
+}
+.coffee-bean::before {
+    content: "☕"; /* Coffee bean icon */
+    color: #4d3b2c;
+}
+.header-icons {
+    text-align: center;
+}
+
+.coffee-bean2::before {
+    content: "☕"; /* Coffee bean icon */
+    color: #4d3b2c;
+}
+
+.item-name {
+    text-align: left;
+    padding-left: 20px;
+}
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+
+.coffee-icon {
+    width: 24px;
+    height: 24px;
+}
