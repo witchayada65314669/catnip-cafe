@@ -1,43 +1,94 @@
-body {
-    background-color: #d0ccaa; /* สีเทาอ่อน */
-    margin: 0; /* ยกเลิก margin เพื่อให้ครอบคลุมเต็มหน้า */
-    padding: 0;
-}
-
-.container {
-    display: flex;
-    align-items: center;
-}
-
-.image-container2 {
-    width: 50%; /* ตั้งค่าความกว้างของบล็อกเป็น 90% ของหน้าจอ เพื่อขยายขนาดรูป */
-    max-width: 1365px; /* กำหนดความกว้างสูงสุดใหม่ */
-    height: 50%;
-    max-height: 910px;
-    margin: auto; /* เพิ่ม margin-top เป็น 100px เพื่อให้รูปภาพเลื่อนลงมา, margin 0 auto เพื่อจัดกึ่งกลางบล็อก */
-    overflow: hidden; /* ซ่อนส่วนที่เกินออกมา */
-    border-radius: 10px; /* มุมมน */
-    margin-right: 20px;
-    float: left;
-    padding: 70px; /* เพิ่มระยะห่างภายในบล็อก 50px */
-    box-sizing: border-box; /* ทำให้ padding และ border รวมอยู่ในการคำนวณขนาด */
-}
-
-.image-container2 img {
-    width: 100%; /* รูปภาพจะเต็มบล็อก */
-    height: auto; /* รักษาอัตราส่วนของรูปภาพ */
-    display: block;
-    border-radius: 10px; /* มุมมนของรูปภาพ */
+.section {
+    width: 100%;
+    min-height: 100vh;
     
 }
 
-.message-box {
-    background-color: white; /* พื้นหลังสีขาว */
-    border: 1px solid #ccc; /* ขอบสีเทาอ่อน */
-    border-radius: 10px; /* มุมมนของกล่อง */
-    padding: 20px; /* ระยะห่างภายในกล่อง */
-    margin: 20px; /* ระยะห่างจากองค์ประกอบอื่นๆ */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เงา */
+.containerr {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
 }
 
+.content-section {
+    float: left;
+    width: 55%;
+}
 
+.image-section {
+    float: right;
+    width: 45%;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+
+.content-section .title {
+    text-transform: uppercase;
+    font-size: 24px;
+    /*font-family: 'Itim', sans-serif;*/
+}
+
+.content-section .content h3 {
+    margin-top: 20px;
+    color: #5d5d5d;
+    font-size: 18px;
+    /*font-family: 'Itim', sans-serif;*/
+}
+
+.content-section .content p {
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    /*font-family: 'Itim', sans-serif;*/
+}
+
+.content-section .social {
+    margin:40px 40px;
+}
+
+.content-section .social i {
+    color: #a52a2a;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+.content-section .social i:hover {
+    color: #3d3d3d;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 50px;
+    }
+    .content-section {
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .image-section {
+        float: none;
+        width: 100%;
+    }
+    .image-section img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: auto;
+    }
+    .content-section .title {
+        text-align: center;
+        font-size: 19px;
+    }
+    .content-section .social {
+        text-align: center;
+    }
+}

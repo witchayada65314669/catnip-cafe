@@ -1,0 +1,43 @@
+.header {
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 300px;
+    font-size: 35px;
+}
+
+.header h2 {
+    color: blue;
+}
+
+.header span{
+    color: #eaa03f;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
+
+.footer-distributed {
+    background-color: #2d2a30;
+    box-sizing: border-box;
+    widows: 100%;
+    text-align: left;
+    font: bold 16px san-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left .footer-distributed .footer-center .footer-distributed .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
