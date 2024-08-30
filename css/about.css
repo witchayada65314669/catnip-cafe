@@ -1,0 +1,43 @@
+body {
+    background-color: #d0ccaa; /* สีเทาอ่อน */
+    margin: 0; /* ยกเลิก margin เพื่อให้ครอบคลุมเต็มหน้า */
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.image-container2 {
+    width: 50%; /* ตั้งค่าความกว้างของบล็อกเป็น 90% ของหน้าจอ เพื่อขยายขนาดรูป */
+    max-width: 1365px; /* กำหนดความกว้างสูงสุดใหม่ */
+    height: 50%;
+    max-height: 910px;
+    margin: auto; /* เพิ่ม margin-top เป็น 100px เพื่อให้รูปภาพเลื่อนลงมา, margin 0 auto เพื่อจัดกึ่งกลางบล็อก */
+    overflow: hidden; /* ซ่อนส่วนที่เกินออกมา */
+    border-radius: 10px; /* มุมมน */
+    margin-right: 20px;
+    float: left;
+    padding: 70px; /* เพิ่มระยะห่างภายในบล็อก 50px */
+    box-sizing: border-box; /* ทำให้ padding และ border รวมอยู่ในการคำนวณขนาด */
+}
+
+.image-container2 img {
+    width: 100%; /* รูปภาพจะเต็มบล็อก */
+    height: auto; /* รักษาอัตราส่วนของรูปภาพ */
+    display: block;
+    border-radius: 10px; /* มุมมนของรูปภาพ */
+    
+}
+
+.message-box {
+    background-color: white; /* พื้นหลังสีขาว */
+    border: 1px solid #ccc; /* ขอบสีเทาอ่อน */
+    border-radius: 10px; /* มุมมนของกล่อง */
+    padding: 20px; /* ระยะห่างภายในกล่อง */
+    margin: 20px; /* ระยะห่างจากองค์ประกอบอื่นๆ */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เงา */
+}
+
+

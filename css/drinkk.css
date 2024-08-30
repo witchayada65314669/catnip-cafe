@@ -24,15 +24,16 @@ td {
 .coffee-bean::before {
     content: "☕"; /* Coffee bean icon */
     color: #4d3b2c;
+    vertical-align: middle;
 }
 .header-icons {
     text-align: center;
 }
 
-.coffee-bean2::before {
-    content: "☕"; /* Coffee bean icon */
+/* .coffee-bean2::before {
+    content: "☕"; 
     color: #4d3b2c;
-}
+} */
 
 .item-name {
     text-align: left;
