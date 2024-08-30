@@ -926,7 +926,7 @@ strong {
 }
 
 .social-icon-link {
-  background: var(--secondary-color);
+  background-color: #2d2a30;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
   font-size: var(--copyright-font-size);
@@ -936,12 +936,11 @@ strong {
   width: 35px;
   height: 35px;
   line-height: 36px;
-  transition: background 0.2s, color 0.2s;
+  /*transition: background 0.2s, color 0.2s;*/
 }
 
-.social-icon-link:hover {
-  background: var(--primary-color);
-  color: var(--white-color);
+.social-icon-link li:hover {
+  color: #ac2a2a;
 }
 
 
