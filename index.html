@@ -29,6 +29,30 @@
 
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/about.css">
+
+    <style>
+        .image-column {
+            display: flex;
+            flex-direction: column;
+            width: 50%; /* ครึ่งหนึ่งของจอ */
+            height: 100vh; /* ใช้ความสูงเต็มจอ */
+            margin-left: 50px; /* จัดกึ่งกลางในแนวนอน */
+            overflow: hidden; /* ซ่อนส่วนที่เกินออกจากพื้นที่ */
+            margin-top: 100px;
+            border-radius: 10px;
+            
+        }
+
+        .image-column img {
+            width: 100%; /* ใช้ความกว้างเต็มของคอลัมน์ */
+            height: auto;
+            margin-bottom: 20px; /* เพิ่มระยะห่างระหว่างรูปภาพ */
+            object-fit: cover; /* ตัดแต่งรูปภาพให้เต็มพื้นที่ */
+            border-radius: 10px;
+        }
+
+        
+    </style>
     <!--
 
 TemplateMo 588 ebook landing
@@ -103,6 +127,23 @@ https://templatemo.com/tm-588-ebook-landing
                 </div>
             </div>
         </nav>
+         <!-- Image Row Section -->
+         <section class="image-column">
+            <img src="images/sweet-dream.png" alt="Image 1">
+            <img src="images/living-room.png" alt="Image 3">
+            <img src="images/bath-room.png" alt="Image 2">
+            
+        </section>
+
+        <!-- Hero Section 
+        <section class="hero-section text-center py-5">
+            <div class="container">
+                <h1 class="display-4">Welcome to Catnip Café</h1>
+                <p class="lead">A cozy place for coffee lovers and board game enthusiasts.</p>
+                <a href="#about" class="btn btn-primary btn-lg mt-4">Learn More</a>
+            </div> 
+        </section> --><!-- Image Row Section -->
+        
 
         
 
