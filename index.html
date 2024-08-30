@@ -30,7 +30,20 @@
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/about.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+
     <style>
+        .main-container {
+            display: flex;
+            align-items: center; /* จัดให้อยู่แนวกลางในแนวตั้ง */
+            width: 100%;
+            height: 100vh;
+            margin-bottom: 100px;
+            margin-top: 50px;
+        }
+
         .image-column {
             display: flex;
             flex-direction: column;
@@ -39,16 +52,23 @@
             margin-left: 50px; /* จัดกึ่งกลางในแนวนอน */
             overflow: hidden; /* ซ่อนส่วนที่เกินออกจากพื้นที่ */
             margin-top: 100px;
-            border-radius: 10px;
+            /*border-radius: 10px;*/
             
         }
 
         .image-column img {
             width: 100%; /* ใช้ความกว้างเต็มของคอลัมน์ */
             height: auto;
-            margin-bottom: 20px; /* เพิ่มระยะห่างระหว่างรูปภาพ */
+            margin-bottom: 0; /* เพิ่มระยะห่างระหว่างรูปภาพ */
             object-fit: cover; /* ตัดแต่งรูปภาพให้เต็มพื้นที่ */
-            border-radius: 10px;
+            /*border-radius: 10px;*/
+        }
+
+        .text-column {
+            flex: 1; /* ใช้พื้นที่ 1 ส่วนของ container */
+            max-width: 40%; /* กำหนดให้ข้อความใช้พื้นที่ 40% ของ container */
+            padding: 20px;
+            margin-left: 50px; /* เว้นระยะห่างจากรูปภาพ 50px */
         }
 
         
@@ -128,14 +148,14 @@ https://templatemo.com/tm-588-ebook-landing
             </div>
         </nav>
          <!-- Image Row Section -->
-         <section class="image-column">
+        <!--<section class="image-column">
             <img src="images/sweet-dream.png" alt="Image 1">
             <img src="images/living-room.png" alt="Image 3">
             <img src="images/bath-room.png" alt="Image 2">
             
         </section>
 
-        <!-- Hero Section 
+         Hero Section 
         <section class="hero-section text-center py-5">
             <div class="container">
                 <h1 class="display-4">Welcome to Catnip Café</h1>
@@ -143,6 +163,25 @@ https://templatemo.com/tm-588-ebook-landing
                 <a href="#about" class="btn btn-primary btn-lg mt-4">Learn More</a>
             </div> 
         </section> --><!-- Image Row Section -->
+        <!-- Text Column 
+        <section class="text-column">
+            <h2>Welcome to Catnip Café</h2>
+            <p>A cozy place for coffee lovers and board game enthusiasts. Enjoy our special reservation room, delicious coffee, and a variety of board games to choose from!</p>
+            <a href="#about" class="btn btn-primary">Learn More</a>
+        </section> -->
+
+        <div class="main-container">
+            <div class="image-column">
+                <img src="images/sweet-dream.png" alt="Image 1">
+            <img src="images/living-room.png" alt="Image 3">
+            <img src="images/bath-room.png" alt="Image 2">
+            </div>
+            <div class="text-column">
+                <h2>Welcome to Catnip Café</h2>
+                <p class="thaifont4">Catnip Café เป็นสถานที่ที่สมบูรณ์แบบสำหรับคนรักกาแฟและบอร์ดเกม พบกับบรรยากาศที่อบอุ่นและเป็นกันเอง เพลิดเพลินกับเครื่องดื่มแสนอร่อย สนุกกับบอร์ดเกมหลากหลายชนิด แต่อย่าลืมนะว่าที่คาเฟ่นี้ยังมีห้องถ่ายรูปพิเศษที่จำกัดจำนวนคนเข้าโดยการจองอีกด้วย</p>
+                <a href="room.html" class="form-control text-center">Let's go!</a>
+            </div>
+        </div>
         
 
         
