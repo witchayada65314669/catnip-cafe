@@ -1,7 +1,9 @@
 .section {
     width: 100%;
-    min-height: 100vh;
-    
+    /*min-height: 100vh;*/
+    padding-bottom: 0px; /* ตั้งค่า padding-bottom เป็น 0 */
+    margin-bottom: 0px; /* ตั้งค่า margin-bottom เป็น 0 */
+    min-height: 422px; /* หรือ ลองลดค่า min-height */
 }
 
 .containerr {
@@ -48,7 +50,7 @@
     /*font-family: 'Itim', sans-serif;*/
 }
 
-.content-section .social {
+/*.content-section .social {
     margin:40px 40px;
 }
 
@@ -60,7 +62,7 @@
 
 .content-section .social i:hover {
     color: #3d3d3d;
-}
+} */
 
 @media screen and (max-width: 768px) {
     .containerr {

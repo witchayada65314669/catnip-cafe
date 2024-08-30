@@ -42,6 +42,8 @@
     font-family: 'Unbounded', sans-serif;
 }
 
+
+
 .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right{
     display: inline-block;
     vertical-align: top;
@@ -50,6 +52,7 @@
 
 .footer-distributed .footer-left {
     width: 30%;
+
 }
 
 .footer-distributed h3{
