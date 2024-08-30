@@ -56,11 +56,18 @@ body {
     font-family: 'Itim', sans-serif;
     font-size: 18px;
     margin-left: 330px;
+    margin-right: 200px;
 }
 
 .thaifont4 {
     font-family: 'Itim', sans-serif;
     font-size: 22px;
+}
+
+.thaifont5 {
+    font-family: 'Itim', sans-serif;
+    font-size: 22px;
+    text-align: center;
 }
 
 

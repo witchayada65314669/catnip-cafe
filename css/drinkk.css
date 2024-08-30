@@ -25,15 +25,32 @@ td {
     content: "☕"; /* Coffee bean icon */
     color: #4d3b2c;
     vertical-align: middle;
+    margin-left: 165px;
 }
 .header-icons {
     text-align: center;
 }
 
-/* .coffee-bean2::before {
+.coffee-bean2::before {
     content: "☕"; 
     color: #4d3b2c;
-} */
+    vertical-align: middle;
+    margin-left: 145px;
+} 
+
+.coffee-bean3::before {
+    content: "☕"; 
+    color: #4d3b2c;
+    vertical-align: middle;
+    margin-left: 415px;
+} 
+
+.coffee-bean4::before {
+    content: "☕"; 
+    color: #4d3b2c;
+    vertical-align: middle;
+    margin-left: 200px;
+} 
 
 .item-name {
     text-align: left;
